@@ -5,6 +5,14 @@ public class Account{
     protected String nick;
     protected String pass;
 
+    public Account(){
+
+    }
+
+    public Account(String nick, String pass){
+        this.nick = nick;
+        this.pass = pass;
+    }
 
     public String getNick() {
         return nick;
